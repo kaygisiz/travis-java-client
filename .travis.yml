@@ -1,11 +1,11 @@
 language: java
 install: true
-
 jdk:
-  - oraclejdk8
-
+- oraclejdk8
 script:
-  - ./gradlew build --stacktrace
-  - ./gradlew test --stacktrace
-
+- "./gradlew build --stacktrace"
+- "./gradlew test --stacktrace"
 dist: trusty
+env:
+  global:
+    secure: WPhRBAQ4tdJYPk5Qmv8bDcD9s6+gJzRCZVIDLrnrTV2sZAPFZKqYLa6Yfhb4KjKGshHe+hWr7RnqauPE1HFQoaVxRtXiZkUH/uzs69zRytf3XCef816xiMQl/Tn1N3fxQruFjbX7zc3Js7GFNJ3wBgdOuzMcN96aTk+Ed+VYVSNRz0+4z+FyRhyohdN83QkwIjTPSMtA/5ILTvP3hagvV1w98T4HUrw/6ii0vfcwlRHzTrixGKHZ0XCh9J0aNeM/FOO2vfpdeBFLcdyrn4OaYz0s6PUhr4uR9yk92MOzP4OdmDT0yV747huOoLdCwzlLx3DnsdkHSgnYTa7oUrY05Yys616b3s5IhtlzIwAIsmqncjplU/R8tTbFnAtulcwtiNHAerEe1Hxbf2fkLxje5GUbq13+QaRQuXkkGm0dfR25eQcRXoAEmHyzlUob0kgQaY1ELGutbY+ESTZlR+d3kif6IdVK4hF+laRlCSGbd9RUemcAm8lEE9I8yfgSmOIp+nttcHOxELhFamAT3BKKaHi9cLAXU3/8aJVOQliXtSdyTIBpqoCja6DuhnZe0Y/EzBUKI1jR95gqNdjNgZ/bfzYBk06gmqM8X0XHDcrQ7/iVzyE/nqAc44Yt85vyDJOMv84gJeMEMZZaGWrz5tC6L382aF+TlCH4nF1upMu9+Zo=
